@@ -1,21 +1,21 @@
 import React from "react";
-import "../src/Components/navbar.css";
+import "../navbar/navbar.css";
 import {
   BrowserRouter as Router,
   Routes,
   Route,
   NavLink,
 } from "react-router-dom";
-import AboutUs from "./Components/aboutus";
-import Ourthinking from "./Components/ourthinking";
-import Ourapproach from "./Components/ourapproach";
-import Jointhetribe from "./Components/jointhetribe";
-import Letstalk from "./Components/letstalk";
-import logo from "../src/assest/logo_main.png";
-import search from "../src/assest/Search.png";
-import country from "../src/assest/Australia.png";
-import line from "../src/assest/Line.png";
-import profilearrow from "../src/assest/Downarror.png";
+import AboutUs from "../aboutus/aboutus";
+import Ourthinking from "../ourthinking/ourthinking";
+import Ourapproach from "../ourapproach/ourapproach";
+import Jointhetribe from "../jointhetribe/jointhetribe";
+import Letstalk from "../letstalk/letstalk";
+import logo from "../../assest/logo_main.png";
+import search from "../../assest/Search.png";
+import country from "../../assest/Australia.png";
+import line from "../../assest/Line.png";
+import profilearrow from "../../assest/Downarror.png";
 
 function Navbar() {
   return (

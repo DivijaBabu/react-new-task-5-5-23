@@ -1,0 +1,78 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    background: #1B2228;
+    height: 4rem;
+    align-items: center;
+    padding: 1rem;
+    color: white;
+}
+
+header ul {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 2.5rem;
+    list-style: none;
+}
+
+.logo img {
+    height: 25px;
+}
+
+.navlink {
+    text-decoration: none;
+    color: white;
+    display: flex;
+    align-items: center;
+    height: 100%;
+}
+
+.navlink:hover {
+    border-bottom: 2px solid #065F66;
+}
+
+.active {
+    border-bottom: 2px solid #065F66;
+}
+
+.jointhetribe {
+    display: flex;
+    gap: 1rem;
+    align-items: center;
+}
+
+.jointhetribe img {
+    height: 65px;
+}
+
+.navbarcontainer {
+    display: flex;
+    height: 4rem;
+    /* width: 40%; */
+    padding: 0.35rem;
+}
+
+.profile {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 2.5rem;
+}
+
+.countryandarrow {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 0.5rem;
+}
+
+.navigatebody {
+    padding: 5rem;
+}
