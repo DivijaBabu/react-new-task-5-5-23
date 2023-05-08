@@ -1,0 +1,289 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    background: #1B2228;
+    height: 4rem;
+    align-items: center;
+    padding: 1rem;
+    color: white;
+}
+
+header ul {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 2.5rem;
+    list-style: none;
+}
+
+.logo img {
+    height: 25px;
+}
+
+.navlink {
+    text-decoration: none;
+    color: white;
+    display: flex;
+    align-items: center;
+    height: 100%;
+}
+
+.navlink:hover {
+    border-bottom: 2px solid #065F66;
+}
+
+.active {
+    border-bottom: 2px solid #065F66;
+}
+
+.jointhetribe {
+    display: flex;
+    gap: 1rem;
+    align-items: center;
+}
+
+.jointhetribe img {
+    height: 65px;
+}
+
+.navbarcontainer {
+    display: flex;
+    height: 4rem;
+    /* width: 40%; */
+    padding: 0.35rem;
+}
+
+.profile {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 2.5rem;
+}
+
+.countryandarrow {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 0.5rem;
+}
+
+.navigatebody {
+    padding: 5rem;
+}
+
+.bodycontainer1 {
+    display: flex;
+    flex-direction: column;
+    padding: 5% 50% 5% 10%;
+    row-gap: 1rem;
+    background-color: black;
+    color: #ffff;
+}
+
+.bodycontainer1 h1 {
+    font-size: 3.5rem;
+    font-weight: 100;
+}
+
+.secondarybutton {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border: 2px solid #ffff;
+    color: #ffff;
+    background-color: black;
+    width: 38%;
+    padding: 0.5rem 1rem;
+}
+
+.bodycontainer2 {
+    /* display: flex; */
+    flex-direction: column;
+    padding: 5% 5%;
+    row-gap: 1rem;
+    background-color: ffff;
+    /* color: #ffff;    */
+}
+
+.bodycontainer2 h4 {
+    font-size: 1.5rem;
+    color: #0097AB;
+
+}
+
+.overviewcontainer {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    column-gap: 5rem;
+}
+
+.overviewcontainer img {
+    height: 22rem;
+}
+
+.organizationpara {
+    width: 58%;
+    font-size: 2.8rem;
+    font-weight: 200;
+}
+
+.ustpara {
+    width: 42%;
+    font-size: 1.6rem;
+    /* font-weight: 400; */
+    color: #0097AB;
+
+}
+
+.bodycontainer3 {
+    display: flex;
+    background-color: #1C242C;
+    padding: 4rem 5rem;
+    color: #ffff;
+}
+
+.internalconatiner {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    width: 100%;
+
+}
+
+.headpart {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+
+}
+
+.headpart h1 {
+    font-size: 4rem;
+    font-weight: 100;
+}
+
+.headpart p {
+    width: 35%;
+    padding-top: 0.25rem;
+}
+
+.row {
+
+    display: flex;
+    flex-wrap: wrap;
+width: 100%;
+    gap: 1rem;
+}
+
+.arrangement {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    padding: 1rem;
+}
+
+.col-3 {
+    flex: 0 0 auto;
+    width: 24%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 2rem;
+    height: 17.5rem;
+}
+
+.col-3 h1{
+font-weight: 400;
+}
+.card1 {
+    background-color: #065F66;
+}
+
+.card2,.card4,.card7 {
+    background-color: #006E74;
+}
+
+.card3,.card5 {
+    background-color: #003C52;
+}
+
+.card6 ,.card8{
+    background-color: #0097AB;
+}
+
+
+.button {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 50%;
+}
+
+.button img {
+    padding-top: 3px;
+    width: 20px;
+}
+
+.cardinterior {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+
+}
+.bodycontainer4{
+    display: flex;
+    justify-content: space-between;
+    background: #ffff;
+    padding: 3rem 6rem;
+    gap: 3rem;
+}
+.approachtext
+{
+    display: flex;
+    flex-direction: column;
+    row-gap: 2rem;
+    justify-content: center;
+}
+
+.approachtext h1{
+    font-size: 6rem;
+    font-weight: 400;
+    text-align: center;
+}
+.approachtext p{
+    font-size: 1.5rem;
+}
+
+.bodycontainer5{
+    display: flex;
+    justify-content: space-between;
+    background: #003C52;
+    color: #ffff;
+    padding: 3rem 8rem;
+    gap: 8rem;
+}
+
+.connecttext
+{
+    display: flex;
+    flex-direction: column;
+    row-gap: 2rem;
+    justify-content: center;
+}
+
+.connecttext h1{
+    font-size: 6rem;
+    font-weight: 200;
+}
+.connecttext p{
+    font-size: 1.3rem;
+}
+
